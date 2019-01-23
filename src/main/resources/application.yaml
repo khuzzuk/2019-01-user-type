@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dvd_example
+    username: dvd_user
+    password: dvd
+    driver-class-name: org.postgresql.Driver
